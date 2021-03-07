@@ -1,0 +1,28 @@
+/* ----------------
+flexbox
+---------------- */
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+}
+
+.flex-item{
+flex: 1 0 280px;
+margin: 20px 0;
+}
+
+.primary-row, .tertiary-row {
+flex: 2 1 400px;
+max-width: 100%;
+}
+
+.flex-fig{
+    margin-bottom:8px;
+    font-size: 12px;
+}
+
+.text-accent{
+    color:#00CD98;
+}

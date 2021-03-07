@@ -1,0 +1,58 @@
+/* ------------ 
+Main Styles
+------------ */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    position: relative;
+}
+
+body {
+    font-size: 20px;
+    line-height: 1.32;
+    font-family: 'Open Sans', sans-serif;
+    color: #44414D;
+    background-color: #FEFEFE;
+}
+
+/* sections containers wrappers */
+
+section {
+    padding:100px 0;
+    position: relative;    
+}
+
+.container{
+    max-width: 1660px;    
+    margin: 0 auto;
+    padding: 0 80ox;
+    position:relative;
+}
+
+/* text buttons */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.04;
+    font-weight:600;
+}
+
+p{
+   margin-bottom: 24px; 
+}
+
+h2 {
+    font-size: 2.4rem;
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+}
